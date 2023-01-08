@@ -1,0 +1,108 @@
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f2f5;
+
+    .create_account {
+
+        margin-left: 10px;
+        background-color: white;
+        width: 432px;
+        
+        border-radius: 5px;
+        box-shadow: 0.5px 0.5px 5px 5px rgba(153, 153, 153, 0.1);
+
+        h2 {
+            margin-left: 10px;
+            font-size: 32px;
+        }
+
+        .quick {
+            margin-left: 10px;
+            color: #606770;
+            font-size: 15px;
+        }
+
+        Form {
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            .tag{
+                font-size: 11px;
+            }
+
+            .name {
+
+                display: flex;
+                gap: 5px;
+
+                .name_field {
+                    width: 194px;
+                    height: 40px;
+                    background-color: #f0f2f5;
+                    opacity: 0.8;
+                    border: 1px solid #606770;
+                    border-radius: 5px;
+                }
+            }
+
+            .field_i {
+
+                width: 399px;
+                height: 40px;
+                background-color: #f0f2f5;
+                opacity: 0.8;
+                border: 1px solid #606770;
+                border-radius: 5px;
+            }
+
+            .brithday {
+                display: flex;
+                flex-direction: column;
+
+                .date_div {
+                    display: flex;
+                    gap: 13px;
+
+
+                    .date {
+
+                        width: 126px;
+                        height: 36px;
+                        background-color: #f0f2f5;
+                        opacity: 0.8;
+                        border: 1px solid #606770;
+                        border-radius: 5px;
+                    }
+                }
+            }
+            .gender{
+                width: 399px;
+            }
+            .write{
+                margin-left: 10px;
+                font-size: 11px;
+            }
+            .signup{
+                width: 194px;
+                height: 36px;
+                margin-bottom: 10px;
+                border: none;
+                background-color: rgb(0, 161, 0);
+                color: white;
+                font-size: 20px;
+                border-radius: 5px;
+                &:hover{
+                    opacity: 0.4;
+                }
+            }
+        }
+    }
+}
